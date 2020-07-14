@@ -1,0 +1,22 @@
+body {
+    background-color: #737171;
+}
+
+.pics {
+    display: flexbox;
+}
+
+img {
+    width: 400px;   
+    height: 400px;
+    margin: 50px;
+    cursor: pointer;
+    border: 5px solid black;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+}
+
+img:hover {
+    box-shadow: 2px 2px 5px #f08a0d;
+    transform: scale(1.1);
+}
